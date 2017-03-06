@@ -1,0 +1,187 @@
+body{
+	background:-webkit-linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("media/michal-grosicki-203072.jpg") no-repeat center fixed;
+	background:-o-linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("media/michal-grosicki-203072.jpg") no-repeat center fixed;
+	background:-moz-linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("media/michal-grosicki-203072.jpg") no-repeat center fixed;
+	background:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("media/michal-grosicki-203072.jpg") no-repeat center fixed;
+	background-size: cover;
+	color:#000;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.modal-content{
+	background:url("media/Lined-Paper-Template-16.jpg");
+	min-height: 400px;
+}
+
+.settings{
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.settings-text{
+	margin-top:40px;
+	margin-bottom: 40px;
+}
+
+.settings-button{
+	display:inline-block;
+	border:1px solid transparent;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color:#424242;
+	font-size:26px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.settings-button:hover{
+	background-color: #4f4d52;
+	color:#E9E9E9;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.settings-button:focus{
+	color:#E9E9E9;
+	text-decoration: none;
+}
+
+.settings-back{
+	display: block;
+	color:#3299BB;
+	margin-top:10px;
+}
+
+.settings-back:hover{
+	text-decoration: none;
+}
+
+.paper-bg{
+	background:url("media/Lined-Paper-Template-16.jpg");
+	width:600px;
+	height:600px;
+	margin-left: 100px;
+	margin-bottom: 50px;
+	display: inline-block;
+}
+
+
+.grid-container{
+	text-align: center;
+	padding-top:25px;
+	height:450px;
+	width:450px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.grid{
+	width:150px;
+	height:150px;
+	margin:0 0 0 0;
+	padding: 0 0 0 0;
+	float:left;
+}
+
+.post-it-container{
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.post-it{
+	overflow:hidden;
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+	margin-bottom: 360px;
+	margin-left:10px;
+	height:275px;
+	width: 275px;
+	display: inline-block;
+	border:1px solid #E8E8E8;
+	padding-top: 35px;
+
+	/*border-top:50px solid #fdfd86;*/
+	border-bottom-right-radius: 60px 5px;
+	background:-webkit-linear-gradient(135deg, #ffff88 81%,#ffff88 82%,#ffff88 82%,#ffffc6 100%);
+	background:-o-linear-gradient(135deg, #ffff88 81%,#ffff88 82%,#ffff88 82%,#ffffc6 100%);
+	background:-moz-linear-gradient(135deg, #ffff88 81%,#ffff88 82%,#ffff88 82%,#ffffc6 100%);
+	background: linear-gradient(135deg, #ffff88 81%,#ffff88 82%,#ffff88 82%,#ffffc6 100%);
+}
+
+.post-it-2{
+	/*margin-bottom: 120px;*/
+	font-size:20px;
+}
+
+.checkbox{
+	text-align: left;
+	margin-left:30px;
+}
+
+.left-status{
+	padding-left:15px;
+}
+
+.right-status{
+	float:right;
+	padding-right:15px;
+}
+.results-display-container{
+	text-align: center;
+	padding-top:10px; 
+	font-size:24px;
+}
+
+#status-display{
+	color:#ff0000;
+}
+
+.status-container{
+	width:600px;
+	margin-top:50px;
+	margin-left:100px;
+	background:url("media/Lined-Paper-Template-16.jpg");
+	font-family: 'Indie Flower', cursive;
+	font-size:18px;
+	padding-top:15px;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+#scoreboard-header{
+	margin-top:20px;
+	display:inline-block;
+
+}
+
+.scoreboard{
+	display: inline-block;
+	margin-top: -5px;
+}
+
+.post-it-link{
+	display:block;
+	color:#000;
+}
+
+.post-it-link:hover{
+	text-decoration: none;
+	color:#000;
+	font-weight: bold;
+}
+
+.post-it-link:focus{
+	text-decoration: none;
+	color:#000;
+	outline: none;
+}
+
+.move{
+	font-size:70px;
+	padding-top:10px;
+	opacity:.7;
+	color:#83F52C;
+}

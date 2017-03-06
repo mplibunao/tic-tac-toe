@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Tic Tac Toe</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<script src="https://use.fontawesome.com/faecb25be0.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Permanent+Marker" rel="stylesheet">
+		<!--<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link href="styles/style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<!-- modal -->
+		<div class="modal fade" id="new-game" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Start a New Game</h4>
+					</div>
+
+					<div class="modal-body">
+						<div class="tab-content settings">
+							<h3 class="settings-text"></h3>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+
+		<!-- game board -->
+			
+			<div class="status-container">
+				<div class="row">
+					<span class="left-status">Mark Paolo B. Libunao</span>
+					<span class="right-status" id="turn-number"></span>
+				</div>
+				<div class="row">
+					<span class="left-status">10909257</span>
+					<span class="right-status" id="status-display"></span>
+				</div>
+				<div class="row">
+					<span class="left-status">BS Information Systems	</span>
+				</div>
+				<div class="row results-display-container">
+					<span class="results-display">Tic Tac Toe</span>
+				</div>
+			</div>
+			<div class="paper-bg">
+				<div class="grid-container">
+						<!-- remove text nodes between the divs by putting the closing > beside the next div -->
+						<div class="grid" id="0"></div
+						><div class="grid" id="1"></div
+						><div class="grid" id="2"></div
+						><div class="grid" id="3"></div
+						><div class="grid" id="4"></div
+						><div class="grid" id="5"></div
+						><div class="grid" id="6"></div
+						><div class="grid" id="7"></div
+						><div class="grid" id="8"></div>
+						
+				</div>
+			</div>
+			<div class="post-it-container">
+				<div class="post-it">
+					<h2 class="turnIndicator">Motivation will not</h2>
+					<div class="row">
+						<h3 id="scoreboard-header">help you overcome</h3>
+					</div>
+					<div class="row">
+					<h3 class="scoreboard" id="player1-score">"the Grind"</h3>
+					<h3 class="scoreboard" id="score-divider"></h3>
+					<h3 class="scoreboard" id="player2-score"></h3>
+					</div>
+				</div>
+				<div class="post-it post-it-2">
+					<a href="#new-game" data-toggle="modal" data-target="#new-game" onclick="playerNumInterface()" class="post-it-link">New Game / Settings</a>
+					<h2 class="todo-tittle">To-do:</h2>
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" value="" checked>
+							Eat
+						</label>
+					</div>
+					<div class="checkbox disabled">
+						<label>
+							<input type="checkbox" value="" disabled>
+							Sleep
+						</label>
+					</div>
+					<div class="checkbox">	
+						<label>
+							<input type="checkbox" value="" checked>
+							Code
+						</label>
+					</div>
+					<div class="checkbox">	
+						<label>
+							<input type="checkbox" value="" checked>
+							Repeat
+						</label>
+					</div>	
+				</div>	
+			</div>
+		<script src="scripts/javascript.js"></script>
+	</body>
+</html>
